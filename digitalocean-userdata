@@ -1,0 +1,2 @@
+#!/bin/bash
+wget https://raw.githubusercontent.com/cameronmoten/setup-vpninstant-ipsec-vpn/master/vpnsetup.sh -O vpnsetup.sh && VPN_IPSEC_PSK='USER_PSK' VPN_USER='USER_NAME' VPN_PASSWORD='USER_PASS' sh vpnsetup.sh
